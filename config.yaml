@@ -1,0 +1,21 @@
+# config.yaml
+
+path: /home/slimanimeddine/s2/pfe/img_dedup  # Root directory of the dataset
+
+train: 
+  images: train/images  # Path to training images
+  labels: train/labels  # Path to training labels
+
+val: 
+  images: test/images  # Path to validation/test images
+  labels: test/labels  # Path to validation/test labels
+
+test:  # Optional
+  images: test/images  # Path to test images if you have a separate test set
+  labels: test/labels  # Path to test labels if you have a separate test set
+
+nc: 1  # Number of classes
+
+names:  # Class names
+  0: license_plates
+
